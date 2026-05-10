@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.95.1",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.1",
+    "mongoose": "^9.6.2",
+    "nanoid": "^5.1.11",
+    "nodemon": "^3.1.14"
+  }
+}
